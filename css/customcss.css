@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(94, 0, 0);
+    background-image: url(https://bpi.com/wp-content/uploads/2018/07/Jamie-Dimon-Headshot.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:rgb(109, 114, 11);
+    font-family: 'bangers', courier, Arial, Helvetica, sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}
+.main-content{
+    margin-left: 220px;
+    padding: 20px;
+}
+.sidebar{
+    background-color:rgb(48, 111, 42);
+    width:200px;
+    height:100%;
+    left:0;
+    padding:15px;
+}
+.sidebar ul{
+    list-style: none;
+    padding:0;
+}
+.sidebar ul li{
+    margin: 15px 0;
+}
+.sidebar ul li a{
+    text-decoration:underline
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aquamarine;
+}
+.navbar a:hover{
+    color:red;
+}
+.boxmodel{
+    padding: 15px;
+    background-color: lightblue;
+    border: 5px solid yellow;
+    margin: 20px;
+}
